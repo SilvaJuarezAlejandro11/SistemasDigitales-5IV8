@@ -1,0 +1,4 @@
+palabrasinversas.Palabrasinvertidas$3
+palabrasinversas.Palabrasinvertidas$2
+palabrasinversas.Palabrasinvertidas$1
+palabrasinversas.Palabrasinvertidas

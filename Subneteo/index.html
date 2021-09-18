@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5IV8-Silva-Juarez-Alejandro</title>
+    <link rel="stylesheet" href="css/index.css">
+        <script src="js/subneteo.js"></script>
+        <script src="js/validacion.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="one-half column" style="margin-top: 15%">            
+            
+            <h1>Programa de subneteo</h1>
+            
+            <p>Direccion IP: <input class="btn" type="text" id="dip" onkeypress="return ip(event)" maxlength="15"></p>
+            <p>Numero de subredes: <input class="btn" type="text" id="nsub" onkeypress="return num(event)" maxlength="3"></p>
+            <p>Numero de host: <input class="btn" type="text" id="nhost" onkeypress="return num(event)" maxlength="7"></p>
+            <p><button class="btn" onclick="subneteohost()">Subneteo por numero de host</button>
+                <button class="btn"  onclick="validarip()" >Subneteo</button>
+                
+                <button class="btn"  onclick="convertirbin()">Convertir a binario</button></p>
+            
+            <div id="texto" style="margin-top: 15%;">                
+                <p id="resultado"></p>
+            </div>
+            <div id="divtable" style="margin-top: 15%;"></div>               
+          </div>
+        </div>
+    </div>   
+
+
+
+</body>
+</html>
